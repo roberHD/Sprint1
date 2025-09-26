@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>B-02 Grid</title>
+    <style>
+        .row { display: flex; flex-wrap: wrap; margin: 0 -10px; }
+        .col-12 { flex: 0 0 100%; max-width: 100%; padding: 0 10px; }
+        .col-6 { flex: 0 0 50%; max-width: 50%; padding: 0 10px; }
+        body { font-family: Arial; padding: 20px; }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12">Personalizar Barros Luco - $6000</div> <!-- Título full -->
+    </div>
+    <div class="row">
+        <div class="col-6">Ingredientes base: Carne, Queso</div> <!-- Lista base -->
+        <div class="col-6">Precio actual: $6000</div> <!-- Precio -->
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <label>Quitar Mayonesa</label><br>
+            <input type="checkbox">
+        </div>
+        <div class="col-6">
+            <label>Agregar Queso Extra (+$500)</label><br>
+            <input type="checkbox">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <label>Agregar Palta (+$1000)</label><br>
+            <input type="checkbox" disabled> <!-- No disponible -->
+        </div>
+        <div class="col-6">Mensaje: Ingrediente no disponible</div> <!-- Error -->
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <button>Guardar Personalización</button>
+        </div>
+    </div>
+</body>
+</html>

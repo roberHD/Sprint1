@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>B-02 Grid</title>
+    <title>Detalle Wrap Italiano</title>
     <style>
         .row { display: flex; flex-wrap: wrap; margin: 0 -10px; }
         .col-12 { flex: 0 0 100%; max-width: 100%; padding: 0 10px; }
@@ -11,32 +11,52 @@
 </head>
 <body>
     <div class="row">
-        <div class="col-12">Personalizar Barros Luco - $6000</div> 
+        <div class="col-12">Menu</div> 
     </div>
     <div class="row">
-        <div class="col-6">Ingredientes base: Carne, Queso</div>
-        <div class="col-6">Precio actual: $6000</div> 
+        <div class="col-6"> 
+            <div style="width: 200px; height: 150px; background: #f0f0f0; margin-bottom: 10px;">Foto Producto</div>
+            <div>Producto</div>
+        </div>
+        <div class="col-6">
+            <div>Wrap Italiano</div>
+            <div>$10.999</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">Agregar/Quitar ingredientes:</div> 
     <div class="row">
         <div class="col-6">
-            <label>Quitar Mayonesa</label><br>
+            <label>Ingrediente 1</label><br>
             <input type="checkbox">
         </div>
         <div class="col-6">
-            <label>Agregar Queso Extra (+$500)</label><br>
+            <label>Ingrediente 2</label><br>
             <input type="checkbox">
         </div>
     </div>
     <div class="row">
         <div class="col-6">
-            <label>Agregar Palta (+$1000)</label><br>
-            <input type="checkbox" disabled> 
+            <label>Ingrediente 3</label><br>
+            <input type="checkbox">
         </div>
-        <div class="col-6">Mensaje: Ingrediente no disponible</div> 
+        <div class="col-6">
+            <label>Ingrediente 4</label><br>
+            <input type="checkbox">
+        </div>
     </div>
     <div class="row">
-        <div class="col-12">
-            <button>Guardar Personalización</button>
+        <div class="col-6">
+            <label>Ingrediente 5</label><br>
+            <input type="checkbox">
         </div>
+        <div class="col-6">
+            <label>Ingrediente 6</label><br>
+            <input type="checkbox">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">Precio actualizado: $precio</div> 
     </div>
 </body>
 </html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Soporte</title>
+    <style>
+        .row { display: flex; flex-wrap: wrap; margin: 0 -10px; }
+        .col-12 { flex: 0 0 100%; max-width: 100%; padding: 0 10px; }
+        body { font-family: Arial; padding: 20px; }
+        @media (max-width: 768px) { .col-12 { flex: 0 0 100%; max-width: 100%; } }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12">Soporte</div> 
+    </div>
+    <div class="row">
+        <div class="col-12">Mis pedidos</div> 
+    </div>
+    <div class="row">
+        <div class="col-12">Pedido #001</div> 
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <label>Foto y descripción del reclamo</label><br>
+            <input type="file"> 
+            <textarea placeholder="Descripción del reclamo"></textarea>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <button>Enviar</button>
+        </div>
+    </div>
+    <div class="row" style="display: none;"> 
+        <div class="col-12">Ya se ha contactado con soporte y se le ha asignado el número de reclamo #001</div>
+    </div>
+</body>
+</html>

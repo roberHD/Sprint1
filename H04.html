@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Esqueleto Grid Login Registro</title>
+    <style>
+        .row { display: flex; flex-wrap: wrap; margin: 0 -10px; }
+        .col-12 { flex: 0 0 100%; max-width: 100%; padding: 0 10px; }
+        body { font-family: Arial; padding: 20px; }
+        @media (max-width: 768px) { .col-6 { flex: 0 0 100%; max-width: 100%; } }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12">Login</div> 
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <label>Nombre usuario</label><br>
+            <input type="text" placeholder="Nombre usuario">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <label>Contraseña usuario</label><br>
+            <input type="password" placeholder="Contraseña usuario">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <label>Teléfono usuario</label><br>
+            <input type="tel" placeholder="Teléfono usuario">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <label>Correo usuario</label><br>
+            <input type="email" placeholder="Correo usuario">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <label>Dirección usuario</label><br>
+            <input type="text" placeholder="Dirección usuario">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <button>Registrar</button>
+        </div>
+    </div>
+    <div class="row" style="display: none;"> 
+        <div class="col-12">Registro completado</div>
+    </div>
+</body>
+</html>

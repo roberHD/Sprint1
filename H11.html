@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calificación Pedido</title>
+    <style>
+        .row { display: flex; flex-wrap: wrap; margin: 0 -10px; }
+        .col-12 { flex: 0 0 100%; max-width: 100%; padding: 0 10px; }
+        body { font-family: Arial; padding: 20px; }
+        @media (max-width: 768px) { .col-12 { flex: 0 0 100%; max-width: 100%; } }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-12">Pedido</div> 
+    </div>
+    <div class="row">
+        <div class="col-12">Mis pedidos</div> 
+    </div>
+    <div class="row">
+        <div class="col-12">Tu pedido ha sido entregado</div> 
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <label>Da tu calificación acerca del pedido</label><br>
+            <input type="range" min="1" max="10" value="5">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <label>Comentarios:</label><br>
+            <textarea placeholder="Comentario usuario"></textarea>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <button>Enviar</button>
+        </div>
+    </div>
+</body>
+</html>
